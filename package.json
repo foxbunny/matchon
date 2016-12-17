@@ -1,0 +1,38 @@
+{
+  "name": "matchon",
+  "version": "1.0.0",
+  "description": "Type-test pattern matching for JavaScript",
+  "main": "dist/matchon.js",
+  "scripts": {
+    "test": "jest",
+    "test:start": "jest --watch",
+    "build": "babel matchon.js -o dist/matchon.js",
+    "build:min": "babel matchon.js -o dist/matchon.min.js --minified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxbunny/matchon.git"
+  },
+  "keywords": [
+    "pattern",
+    "matching",
+    "types",
+    "functions"
+  ],
+  "author": "Hajime Yamasaki <hayavuk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxbunny/matchon/issues"
+  },
+  "homepage": "https://github.com/foxbunny/matchon#readme",
+  "jest": {
+    "collectCoverage": true
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "jest": "^18.0.0"
+  }
+}
