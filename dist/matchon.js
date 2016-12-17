@@ -92,6 +92,4 @@
       return fn;
     };
   }));
-
-  exports.default = { match: match, on: on };
 });

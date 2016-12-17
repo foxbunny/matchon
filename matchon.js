@@ -45,5 +45,3 @@ export const on = match(
   _on('String, Function', _on),
   _on('Function', fn => () => fn),
 )
-
-export default { match, on }
